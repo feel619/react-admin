@@ -1,0 +1,62 @@
+@import "lotto-dashboard/custom/functions";
+@import "lotto-dashboard/custom/variables";
+@import "lotto-dashboard/custom/mixins";
+
+// bootstrap (4.6.0) components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// lotto utilities and components
+
+@import "lotto-dashboard/custom/reboot";
+@import "lotto-dashboard/custom/utilities";
+@import "lotto-dashboard/custom/components";
+
+// Vendor (Plugins)
+
+@import "lotto-dashboard/custom/vendors";
+
+// Docs components
+
+@import "lotto-dashboard/docs/variables";
+@import "lotto-dashboard/docs/nav";
+@import "lotto-dashboard/docs/clipboard-js";
+@import "lotto-dashboard/docs/component-examples";
+@import "lotto-dashboard/docs/prism";
+@import "lotto-dashboard/docs/content";
+@import "lotto-dashboard/docs/sidebar";
+@import "lotto-dashboard/docs/footer";
+
+// React Differences
+@import "react/react-differences";

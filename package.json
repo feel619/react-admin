@@ -1,0 +1,71 @@
+{
+  "name": "global-lotto",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/global-lotto-admin",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "4.6.0",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "node-sass": "^6.0.1",
+    "node-sass-package-importer": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-charts": "^3.0.15",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/lotto-dashboard-react.scss src/assets/css/lotto-dashboard-react.css",
+    "minify:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/lotto-dashboard-react.scss src/assets/css/lotto-dashboard-react.min.css --output-style compressed",
+    "map:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/lotto-dashboard-react.scss src/assets/css/lotto-dashboard-react.css --source-map true",
+    "build:scss": "npm run compile:scss && npm run minify:scss && npm run map:scss"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^30.0.0",
+    "@ckeditor/ckeditor5-markdown-gfm": "^31.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.3",
+    "axios": "^0.22.0",
+    "countries-and-timezones": "^3.3.0",
+    "country-state-city": "^3.0.1",
+    "react-bootstrap-daterangepicker": "^7.0.0",
+    "react-data-table-component": "^7.3.1",
+    "react-datepicker": "^4.3.0",
+    "react-phone-number-input": "^3.1.34",
+    "react-toastify": "^8.0.3",
+    "sweetalert2": "^11.1.9"
+  }
+}
